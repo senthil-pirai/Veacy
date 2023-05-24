@@ -23,16 +23,8 @@ public class UserConfig {
 		Server localServer = new Server();
 		localServer.url("http://localhost:8080");
 		localServer.description("Server URL in Local environment");
-
-		Server productionServer = new Server();
-		productionServer.setUrl("http://production.com");
-		productionServer.setDescription("Server URL in Production environment");
-		
-		Server devServer = new Server();
-		devServer.url("https://dev.com");
-		devServer.description("Server URL in dev environment");
 		
 		return new OpenAPI().info(info)
-				.servers(List.of(localServer,productionServer,devServer));
+				.servers(List.of(localServer));
 	}
 }
