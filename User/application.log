@@ -205,3 +205,100 @@ Optional[id:9  name:senthil4  email:senthil@1234  mobileNo:63801684964  userName
 24-05-2023 | 19:33:52.004 | DEBUG | 35 | getAllUsers | c.p.u.s.i.UserServiceImpl | The displayed details:
 [id:1  name:senthil  email:senthil@123  mobileNo:6380168496  userName:senthil  roleId:1  auditingId:1  isActive:true  isDeleted:false, id:6  name:senthil33  email:senthil@1233  mobileNo:63801684963  userName:senthil3  roleId:1  auditingId:1  isActive:true  isDeleted:false]
 24-05-2023 | 19:33:52.004 | INFO  | 37 | getAllUsers | c.p.u.s.i.UserServiceImpl | The method getAllUsers has been ended
+24-05-2023 | 19:49:52.485 | INFO  | 159 | shutdown | o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+24-05-2023 | 19:49:52.492 | INFO  | 173 | log | o.a.c.c.StandardService | Stopping service [Tomcat]
+24-05-2023 | 19:49:52.495 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Destroying Spring FrameworkServlet 'dispatcherServlet'
+24-05-2023 | 19:49:52.504 | INFO  | 651 | destroy | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+24-05-2023 | 19:49:52.509 | INFO  | 350 | close | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+24-05-2023 | 19:49:52.517 | INFO  | 352 | close | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+24-05-2023 | 19:50:02.897 | INFO  | 55 | logStarting | c.p.u.UserApplication | Starting UserApplication using Java 17.0.6 on PI-IN-L4 with PID 29190 (/home/User-L4/Desktop/GitHub/Veacy/User/target/classes started by User-L4 in /home/User-L4/Desktop/GitHub/Veacy/User)
+24-05-2023 | 19:50:02.901 | INFO  | 631 | logStartupProfileInfo | c.p.u.UserApplication | No active profile set, falling back to 1 default profile: "default"
+24-05-2023 | 19:50:02.981 | INFO  | 255 | logTo | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+24-05-2023 | 19:50:02.982 | INFO  | 255 | logTo | o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+24-05-2023 | 19:50:03.740 | INFO  | 132 | registerRepositoriesIn | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-05-2023 | 19:50:03.805 | INFO  | 201 | registerRepositoriesIn | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+24-05-2023 | 19:50:04.371 | INFO  | 108 | initialize | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+24-05-2023 | 19:50:04.385 | INFO  | 173 | log | o.a.c.c.StandardService | Starting service [Tomcat]
+24-05-2023 | 19:50:04.386 | INFO  | 173 | log | o.a.c.c.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-05-2023 | 19:50:04.446 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+24-05-2023 | 19:50:04.446 | INFO  | 292 | prepareWebApplicationContext | o.s.b.w.s.c.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 1463 ms
+24-05-2023 | 19:50:04.624 | INFO  | 31 | logPersistenceUnitInformation | o.h.j.i.u.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+24-05-2023 | 19:50:04.680 | INFO  | 44 | logVersion | o.h.Version | HHH000412: Hibernate ORM core version 5.6.15.Final
+24-05-2023 | 19:50:04.815 | INFO  | 56 | <clinit> | o.h.a.c.Version | HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-05-2023 | 19:50:04.897 | INFO  | 110 | getConnection | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+24-05-2023 | 19:50:05.227 | INFO  | 123 | getConnection | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+24-05-2023 | 19:50:05.254 | INFO  | 175 | <init> | o.h.d.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+24-05-2023 | 19:50:05.896 | INFO  | 52 | initiateService | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-05-2023 | 19:50:05.904 | INFO  | 437 | buildNativeEntityManagerFactory | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-05-2023 | 19:50:06.324 | WARN  | 223 | openEntityManagerInViewInterceptor | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-05-2023 | 19:50:07.001 | INFO  | 59 | startServer | o.s.b.d.a.OptionalLiveReloadServer | LiveReload server is running on port 35729
+24-05-2023 | 19:50:07.046 | INFO  | 220 | start | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+24-05-2023 | 19:50:07.059 | INFO  | 61 | logStarted | c.p.u.UserApplication | Started UserApplication in 4.572 seconds (JVM running for 5.537)
+24-05-2023 | 19:50:13.609 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-05-2023 | 19:50:13.610 | INFO  | 525 | initServletBean | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+24-05-2023 | 19:50:13.616 | INFO  | 547 | initServletBean | o.s.w.s.DispatcherServlet | Completed initialization in 5 ms
+24-05-2023 | 19:50:13.667 | INFO  | 29 | getAllUsers | c.p.u.s.i.UserServiceImpl | The method getAllUsers has been called
+24-05-2023 | 19:50:13.905 | DEBUG | 35 | getAllUsers | c.p.u.s.i.UserServiceImpl | The displayed details:
+[id:1  name:senthil  email:senthil@123  mobileNo:6380168496  userName:senthil  roleId:1  auditingId:1  isActive:true  isDeleted:false, id:6  name:senthil33  email:senthil@1233  mobileNo:63801684963  userName:senthil3  roleId:1  auditingId:1  isActive:true  isDeleted:false]
+24-05-2023 | 19:50:13.908 | INFO  | 37 | getAllUsers | c.p.u.s.i.UserServiceImpl | The method getAllUsers has been ended
+24-05-2023 | 19:50:34.337 | INFO  | 43 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been called
+24-05-2023 | 19:50:34.375 | DEBUG | 49 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The displayed details:
+Optional[id:1  name:senthil  email:senthil@123  mobileNo:6380168496  userName:senthil  roleId:1  auditingId:1  isActive:true  isDeleted:false]
+24-05-2023 | 19:50:34.377 | INFO  | 51 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been ended
+24-05-2023 | 19:50:54.334 | INFO  | 57 | createUser | c.p.u.s.i.UserServiceImpl | The method createUser has been called
+24-05-2023 | 19:50:54.403 | DEBUG | 73 | createUser | c.p.u.s.i.UserServiceImpl | The created user details:
+id:10  name:senthil33  email:senthil@12345  mobileNo:63801684965  userName:senthil5  roleId:1  auditingId:1  isActive:true  isDeleted:false
+24-05-2023 | 19:50:54.404 | INFO  | 80 | createUser | c.p.u.s.i.UserServiceImpl | The method createUser has been ended
+24-05-2023 | 19:51:02.694 | INFO  | 43 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been called
+24-05-2023 | 19:51:02.719 | DEBUG | 49 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The displayed details:
+Optional[id:10  name:senthil33  email:senthil@12345  mobileNo:63801684965  userName:senthil5  roleId:1  auditingId:1  isActive:true  isDeleted:false]
+24-05-2023 | 19:51:02.719 | INFO  | 51 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been ended
+24-05-2023 | 19:51:18.169 | INFO  | 86 | updateUser | c.p.u.s.i.UserServiceImpl | The method updateUser has been called
+24-05-2023 | 19:51:18.249 | DEBUG | 125 | updateUser | c.p.u.s.i.UserServiceImpl | The updated user details:
+id:10  name:senthil5  email:senthil@12345  mobileNo:63801684965  userName:senthil5  roleId:1  auditingId:1  isActive:true  isDeleted:false
+24-05-2023 | 19:51:21.864 | INFO  | 43 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been called
+24-05-2023 | 19:51:21.911 | DEBUG | 49 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The displayed details:
+Optional[id:10  name:senthil5  email:senthil@12345  mobileNo:63801684965  userName:senthil5  roleId:1  auditingId:1  isActive:true  isDeleted:false]
+24-05-2023 | 19:51:21.911 | INFO  | 51 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been ended
+24-05-2023 | 19:51:30.244 | INFO  | 138 | deleteUserByUserName | c.p.u.s.i.UserServiceImpl | The method deleteUserByUserName has been called
+24-05-2023 | 19:51:30.277 | DEBUG | 147 | deleteUserByUserName | c.p.u.s.i.UserServiceImpl | The user with username senthil5 has been deleted
+24-05-2023 | 19:51:30.322 | INFO  | 156 | deleteUserByUserName | c.p.u.s.i.UserServiceImpl | The method deleteUserByUserName has been ended
+24-05-2023 | 19:51:35.834 | INFO  | 43 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been called
+24-05-2023 | 19:51:35.843 | WARN  | 46 | getUserByUserName | c.p.u.s.i.UserServiceImpl | User with username senthil5 doesn't exists
+24-05-2023 | 19:51:35.844 | INFO  | 51 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been ended
+24-05-2023 | 19:51:39.739 | INFO  | 29 | getAllUsers | c.p.u.s.i.UserServiceImpl | The method getAllUsers has been called
+24-05-2023 | 19:51:39.764 | DEBUG | 35 | getAllUsers | c.p.u.s.i.UserServiceImpl | The displayed details:
+[id:1  name:senthil  email:senthil@123  mobileNo:6380168496  userName:senthil  roleId:1  auditingId:1  isActive:true  isDeleted:false, id:6  name:senthil33  email:senthil@1233  mobileNo:63801684963  userName:senthil3  roleId:1  auditingId:1  isActive:true  isDeleted:false]
+24-05-2023 | 19:51:39.764 | INFO  | 37 | getAllUsers | c.p.u.s.i.UserServiceImpl | The method getAllUsers has been ended
+24-05-2023 | 19:53:52.710 | INFO  | 211 | onApplicationEvent | o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener | Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+24-05-2023 | 19:53:52.716 | INFO  | 173 | log | o.a.c.c.StandardService | Stopping service [Tomcat]
+24-05-2023 | 19:53:52.718 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Destroying Spring FrameworkServlet 'dispatcherServlet'
+24-05-2023 | 19:53:52.726 | INFO  | 651 | destroy | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+24-05-2023 | 19:53:52.730 | INFO  | 350 | close | c.z.h.HikariDataSource | HikariPool-1 - Shutdown initiated...
+24-05-2023 | 19:53:52.742 | INFO  | 352 | close | c.z.h.HikariDataSource | HikariPool-1 - Shutdown completed.
+24-05-2023 | 19:53:52.941 | INFO  | 55 | logStarting | c.p.u.UserApplication | Starting UserApplication using Java 17.0.6 on PI-IN-L4 with PID 29190 (/home/User-L4/Desktop/GitHub/Veacy/User/target/classes started by User-L4 in /home/User-L4/Desktop/GitHub/Veacy/User)
+24-05-2023 | 19:53:52.942 | INFO  | 631 | logStartupProfileInfo | c.p.u.UserApplication | No active profile set, falling back to 1 default profile: "default"
+24-05-2023 | 19:53:53.199 | INFO  | 132 | registerRepositoriesIn | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-05-2023 | 19:53:53.208 | INFO  | 201 | registerRepositoriesIn | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+24-05-2023 | 19:53:53.325 | INFO  | 108 | initialize | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+24-05-2023 | 19:53:53.328 | INFO  | 173 | log | o.a.c.c.StandardService | Starting service [Tomcat]
+24-05-2023 | 19:53:53.329 | INFO  | 173 | log | o.a.c.c.StandardEngine | Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-05-2023 | 19:53:53.340 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+24-05-2023 | 19:53:53.340 | INFO  | 292 | prepareWebApplicationContext | o.s.b.w.s.c.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 391 ms
+24-05-2023 | 19:53:53.381 | INFO  | 31 | logPersistenceUnitInformation | o.h.j.i.u.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+24-05-2023 | 19:53:53.388 | INFO  | 110 | getConnection | c.z.h.HikariDataSource | HikariPool-2 - Starting...
+24-05-2023 | 19:53:53.410 | INFO  | 123 | getConnection | c.z.h.HikariDataSource | HikariPool-2 - Start completed.
+24-05-2023 | 19:53:53.411 | INFO  | 175 | <init> | o.h.d.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+24-05-2023 | 19:53:53.503 | INFO  | 52 | initiateService | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-05-2023 | 19:53:53.503 | INFO  | 437 | buildNativeEntityManagerFactory | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-05-2023 | 19:53:53.663 | WARN  | 223 | openEntityManagerInViewInterceptor | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-05-2023 | 19:53:54.075 | INFO  | 59 | startServer | o.s.b.d.a.OptionalLiveReloadServer | LiveReload server is running on port 35729
+24-05-2023 | 19:53:54.096 | INFO  | 220 | start | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+24-05-2023 | 19:53:54.106 | INFO  | 61 | logStarted | c.p.u.UserApplication | Started UserApplication in 1.213 seconds (JVM running for 232.584)
+24-05-2023 | 19:53:54.109 | INFO  | 63 | onApplicationEvent | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+24-05-2023 | 19:54:03.608 | INFO  | 173 | log | o.a.c.c.C.[.[.[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-05-2023 | 19:54:03.609 | INFO  | 525 | initServletBean | o.s.w.s.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+24-05-2023 | 19:54:03.610 | INFO  | 547 | initServletBean | o.s.w.s.DispatcherServlet | Completed initialization in 1 ms
+24-05-2023 | 19:54:03.617 | INFO  | 43 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been called
+24-05-2023 | 19:54:03.630 | WARN  | 46 | getUserByUserName | c.p.u.s.i.UserServiceImpl | User with username senthil5 doesn't exist
+24-05-2023 | 19:54:03.630 | INFO  | 51 | getUserByUserName | c.p.u.s.i.UserServiceImpl | The method getUserByUserName has been ended

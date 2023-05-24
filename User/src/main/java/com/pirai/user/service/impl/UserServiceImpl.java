@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
 		log.info("The method getUserByUserName has been called");
 		Optional<User> temp = userRepository.findByUserName(userName);
 		if(temp.isEmpty()) {
-			log.warn("User with username "+userName+" doesn't exists");
+			log.warn("User with username "+userName+" doesn't exist");
 		}
 		else {
 			log.debug("The displayed details:\n"+userRepository.findByUserName(userName));
@@ -127,7 +127,7 @@ public class UserServiceImpl implements UserService {
         }
         else
         {
-			log.warn("User with username "+userName+" doesn't exists");
+			log.warn("User with username "+userName+" doesn't exist");
 			log.info("The method updateUser has been ended");
             return "User not found!";
         }
@@ -139,9 +139,9 @@ public class UserServiceImpl implements UserService {
 		try {
 			Optional<User> temp = userRepository.findByUserName(userName);
 			if(temp.isEmpty()) {
-				log.warn("User with username "+userName+" doesn't exists");
+				log.warn("User with username "+userName+" doesn't exist");
 				log.info("The method deleteUserByUserName has been ended");
-				return "User with username "+userName+" doesn't exists!";
+				return "User with username "+userName+" doesn't exist!";
 			}
 			User user = temp.get();
 			log.debug("The user with username "+userName+" has been deleted");
